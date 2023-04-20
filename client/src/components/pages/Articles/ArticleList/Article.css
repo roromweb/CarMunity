@@ -1,0 +1,58 @@
+.img{
+width: 520px;
+height: 365px;
+border-radius: 25px;
+}
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.title{
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    margin-bottom:650px;
+    font-family: Trebuchet MS, sans-serif;
+
+
+}
+
+.container{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.779);
+    border-radius: 25px;
+    width: 600px;
+    height: 800px;
+    /* border: 5px solid rgb(0, 161, 3); */
+}
+.textDiv{
+    overflow-y: scroll;
+    width: 40em;
+    height: 30rem;
+    /* border: 6px solid rgb(161, 0, 0); */
+    position: relative;
+    text-align:justify;
+
+    top: -113%;
+    left: 45%;
+}
+.imgDiv{
+    position: relative;
+    top: -60%;
+}
+
+.titleDiv {
+    position: relative;
+    top: 2%;
+}
+
+.ArticleListBody {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://phonoteka.org/uploads/posts/2021-05/1620191368_57-phonoteka_org-p-fon-dlya-vizitki-avto-63.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+}

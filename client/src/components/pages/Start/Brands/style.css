@@ -1,0 +1,95 @@
+.box{
+  background-color: #0000009e;
+  width: 35%;
+  height: 450px;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: -50%;
+  left: 32.5%;
+  min-height: max-content;
+  /* border: 1px solid rgb(175, 175, 175); */
+  z-index: 1;
+}
+
+.logoBrand {
+  background-color: rgba(0, 0, 0, 0);
+  width: 130px;
+  height: 90px;   
+  margin: 10px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.logoBrand:hover {
+  /* box-shadow: 2px 2px 2px 2px  rgba(243, 241, 241, 0.349); */
+  transform: scale(1.5);
+  transition: 0.7s;
+}
+
+.asd{
+  /* background-image: url(https://vsthemes.org/uploads/posts/2021-09/1632784738_screenshot-from-2021-09-28-02-17-05.png); */
+  width: 100vw;
+  height: 100vw;
+  /* margin-top: 5rem; */
+  padding-top: 5rem;
+  justify-content: center;
+  /* display: flex; */
+  position: absolute;
+  z-index: 1;
+}
+
+
+.paginationBttns{
+  width: 100%;
+  height: 60px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -49%;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5x;
+  /* border: 1px solid rgb(30, 30, 30); */
+  color:rgb(254, 245, 245);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paginationBttns a:hover {
+  color:rgb(161, 161, 161);
+}
+
+.count{
+  display: none;
+}
+
+.video-box {
+  position: absolute;
+  width: 100%;
+/* position: relative; */
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+}
+
+.video {
+  width: 100%;
+}
+
+.modelName{
+  font-size: 18px;
+  font-family: serif;
+  color: aliceblue;
+  text-decoration: none;
+
+}

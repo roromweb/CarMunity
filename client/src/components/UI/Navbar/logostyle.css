@@ -1,0 +1,44 @@
+@keyframes carr{
+    0%{ 
+    transform: scale(1);
+    left: 6%; 
+    } 
+    50% {
+        left: 13.5%;
+        transform: scale(1);
+    }
+    51%{
+        left: 13.5%;
+        transform: scale(-1,1);
+    }
+    100%{
+        left: 6%;
+        transform: scale(-1,1);
+    }
+}
+.boxlogo{
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+.car{
+    color: red;
+    font-size: 40px;
+}
+
+.munity{
+    color: white;
+    font-size: 30px;
+
+}
+
+/* .boxlogo:hover{
+    color: white;
+} */
+
+.navbarcar {
+    width: 60px;
+    position: absolute;
+    top: -18%;
+    animation: carr 7s linear 1s infinite running ;
+
+}

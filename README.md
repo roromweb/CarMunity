@@ -1,5 +1,7 @@
 ## CarMunity
 
+Используемый стек: JavaScript, React, Redux, thunk, HTML, CSS, Node.JS, PostgreSQL, sequelize, sequelize-cli.
+
 <img width="700px"  alt="Снимок4" src="https://github.com/roromweb/CarMunity/blob/develop/client/public/IMG/forreadme/intro.png">
 
 Full stack веб приложение социальной сети для автомобилистов CarMunity
